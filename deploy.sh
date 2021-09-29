@@ -31,4 +31,4 @@ cd $JAR_WORK_PATH
 #修改文件权限
 chmod 755 $JAR_NAME.jar
  
-java -jar $JAR_NAME.jar $
+java -jar $JAR_NAME.jar 
