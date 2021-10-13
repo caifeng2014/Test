@@ -31,4 +31,5 @@ cd $JAR_WORK_PATH
 #修改文件权限
 chmod 755 $JAR_NAME.jar
  
-nohup java -jar $JAR_NAME.jar 
+nohup java -jar $JAR_NAME.jar &
+echo "启动成功"
